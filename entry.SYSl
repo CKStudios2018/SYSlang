@@ -3,7 +3,7 @@ require monitor;
 lang-imp SYS_IMP_AI;
 lang-imp SYSlang_testV;
 
-from SYSlang_testV enter GUI;
+from SYSlang_testV enter GUIs;
 from SYS_IMP_AI enter all;
 
 lang requires = nogui edit.dist(this);
@@ -30,7 +30,7 @@ for Game{
     nogui.close;
     uses('./games/');
     GUI.open('SYStem_testtop');
-    setResourceLevel(High);
+    monitor.setResourceLevel(High);
 }
 
 for Code{
@@ -43,5 +43,5 @@ for user.a{
     nogui.close;
     uses('./')
     GUI.open('./testtop/SYStem_testtop')
-    setResourceLevel(High);
+    monitor.setResourceLevel(High);
 }

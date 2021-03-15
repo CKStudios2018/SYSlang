@@ -1,0 +1,16 @@
+require monitor;
+
+lang-imp SYS_IMP_AI;
+lang-imp SYSlang_testV;
+lang-imp SYScode;
+
+from SYSlang_testV enter GUIs;
+from SYS_IMP_AI enter all;
+from SYScode enter all;
+
+dl(from(systemware.ga/testGUIs/) enter GUI3).to('A:/');
+dl(from(systemware.ga/coder/codelangs/supported)).to('A:/')
+exe('A:/GUI3');
+exe('A:/Coder')
+
+await(user.res);

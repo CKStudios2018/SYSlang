@@ -1,0 +1,12 @@
+require monitor;
+
+lang-imp SYS_IMP_AI;
+lang-imp SYSlang_testV;
+
+from SYSlang_testV enter GUIs;
+from SYS_IMP_AI enter all;
+
+dl(from(systemware.ga/testGUIs/) enter GUI1).to('A:/');
+exe('A:/GUI1');
+
+await(user.res);
