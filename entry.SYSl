@@ -1,0 +1,47 @@
+require monitor;
+
+lang-imp SYS_IMP_AI;
+lang-imp SYSlang_testV;
+
+from SYSlang_testV enter GUI;
+from SYS_IMP_AI enter all;
+
+lang requires = nogui edit.dist(this);
+lang requisit == nogui;
+
+nogui user.create.functions.allow(all).name(toEdit);
+nogui user.create.pull;
+
+ex.disable.shell;
+ex.disable.powershell;
+ex.disable.ae;
+ex.disable.au;
+
+ex.select(user.from('nogui'), user.from('systemware.ga'));
+
+
+for Desktop{
+    nogui.close;
+    uses('./testtop/');
+    GUI.open('SYStem_testtop');
+}
+
+for Game{
+    nogui.close;
+    uses('./games/');
+    GUI.open('SYStem_testtop');
+    setResourceLevel(High);
+}
+
+for Code{
+    nogui.close;
+    uses('./code/');
+    GUI.open('SYStem_codertop');
+}
+
+for user.a{
+    nogui.close;
+    uses('./')
+    GUI.open('./testtop/SYStem_testtop')
+    setResourceLevel(High);
+}
