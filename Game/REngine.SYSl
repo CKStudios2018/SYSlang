@@ -7,4 +7,7 @@ from gamelib enter engine;
 
 for engine{
     dl(from(systemware.ga/gamelib/ enter engine).to('A:/'))
+    exe('A:/REngine')
+} else{
+    return;
 }
