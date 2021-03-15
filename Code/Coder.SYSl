@@ -1,0 +1,14 @@
+require monitor;
+
+lang-imp SYSlang_testV;
+
+from SYSlang_testV enter coder;
+
+for Coder{
+    dl(from(systemware.ga/coder/ enter code).to('A:/'))
+    exe('A:/Coder')
+} else{
+    GUI.force(exit);
+    exe nogui;
+    return;
+}
