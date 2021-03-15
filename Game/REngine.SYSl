@@ -1,0 +1,10 @@
+require monitor;
+
+lang-imp SYSlang_testV;
+
+from SYSlang_testV enter gamelib;
+from gamelib enter engine;
+
+for engine{
+    dl(from(systemware.ga/gamelib/ enter engine).to('A:/'))
+}
