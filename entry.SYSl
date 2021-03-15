@@ -45,3 +45,7 @@ for user.a{
     GUI.open('./testtop/SYStem_testtop')
     monitor.setResourceLevel(High);
 }
+
+for ResourceLevel{
+    monitor.resourceLevel.reveal;
+}
