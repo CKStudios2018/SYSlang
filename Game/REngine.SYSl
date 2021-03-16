@@ -5,6 +5,8 @@ lang-imp SYSlang_testV;
 from SYSlang_testV enter gamelib;
 from gamelib enter engine;
 
+monitor.setResourceLevel(High);
+
 for engine{
     dl(from(systemware.ga/gamelib/ enter engine).to('A:/'))
     exe('A:/REngine')
