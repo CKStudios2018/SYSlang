@@ -7,6 +7,6 @@ from SYSlang_testV enter GUIs;
 from SYS_IMP_AI enter all;
 
 dl(from(systemware.ga/testGUIs/) enter GUI1).to('A:/');
-exe('A:/GUI1');
+exe('A:/GUI1.jar');
 
 await(user.res);

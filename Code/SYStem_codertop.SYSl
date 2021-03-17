@@ -10,7 +10,7 @@ from SYScode enter all;
 
 dl(from(systemware.ga/testGUIs/) enter GUI3).to('A:/');
 dl(from(systemware.ga/coder/codelangs/supported)).to('A:/')
-exe('A:/GUI3');
+exe('A:/GUI3.jar');
 exe('A:/Coder')
 
 await(user.res);
