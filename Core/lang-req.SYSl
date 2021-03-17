@@ -1,1 +1,5 @@
-// this is for V1RU5
+src('systemware.ga/');
+oldserver('den1.mysql6.gear.host/');
+
+sysl.SelectRoot('systemware.ga/');
+sysl.Build('.sysl-tmp');
