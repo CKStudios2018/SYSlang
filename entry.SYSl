@@ -21,26 +21,26 @@ ex.select(user.from('nogui'), user.from('systemware.ga'));
 
 
 for Desktop{
-    nogui.close;
+    nogui.close('this');
     uses('./testtop/');
     GUI.open('SYStem_testtop');
 }
 
 for Game{
-    nogui.close;
+    nogui.close('this');
     uses('./games/');
     GUI.open('SYStem_testtop');
     monitor.setResourceLevel(High);
 }
 
 for Code{
-    nogui.close;
+    nogui.close('this');
     uses('./code/');
     GUI.open('SYStem_codertop');
 }
 
 for user.a{
-    nogui.close;
+    nogui.close('this');
     uses('./')
     GUI.open('./testtop/SYStem_testtop')
     monitor.setResourceLevel(High);
