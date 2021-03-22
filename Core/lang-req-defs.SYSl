@@ -1,2 +1,3 @@
 for lang-req-defs require lang-req;
 
+lang-req.toEdit('oldserver');
