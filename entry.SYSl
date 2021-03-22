@@ -41,8 +41,8 @@ for Code{
 
 for user.a{
     nogui.close('this');
-    uses('./')
-    GUI.open('./testtop/SYStem_testtop')
+    uses('./');
+    GUI.open('./testtop/SYStem_testtop');
     monitor.setResourceLevel(High);
 }
 
