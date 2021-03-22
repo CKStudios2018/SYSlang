@@ -6,10 +6,10 @@ lang-imp SYSlang_testV;
 from SYSlang_testV enter GUIs;
 from SYS_IMP_AI enter all;
 
-lang requires = nogui edit.dist(this);
+lang requires = nogui dist(this).toEdit;
 lang requisit == nogui;
 
-nogui user.create.functions.allow(all).name(toEdit);
+nogui user.create.functions.allow(all).toEdit('name');
 nogui user.create.pull;
 
 ex.disable.shell;
