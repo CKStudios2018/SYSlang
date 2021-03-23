@@ -1,3 +1,5 @@
 for lang-req-defs require lang-req;
 
 lang-req.toEdit('oldserver');
+
+lang.isOpen(this.toEdit('P-R'));
