@@ -1,1 +1,6 @@
-from('lang-req') enter(all)
+from lang-req enter all;
+
+for req(Hashtable){
+    lang:"SYSl";
+    ver:"1.9.0";
+}
