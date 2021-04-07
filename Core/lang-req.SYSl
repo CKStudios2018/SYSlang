@@ -1,3 +1,8 @@
+lang-imp SYS_sec_patch;
+lang-imp SYS_voice_refs;
+lang-imp SYS_voice_ai;
+lang-imp SYS_voice_commands;
+
 src('systemware.ga/');
 oldserver('den1.mysql6.gear.host/');
 
