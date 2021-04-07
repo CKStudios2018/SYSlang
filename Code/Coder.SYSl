@@ -6,7 +6,7 @@ from SYSlang_testV enter coder;
 
 for Coder{
     dl(from(systemware.ga/coder/ enter code).to('A:/'));
-    exe('A:/Coder');
+    return;
 } else{
     GUI.force(exit);
     exe nogui;
