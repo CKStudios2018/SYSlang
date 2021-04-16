@@ -16,6 +16,7 @@ ex.disable.shell;
 ex.disable.powershell;
 ex.disable.ae;
 ex.disable.au;
+ex.disable.ligui;
 
 ex.select(user.from('nogui'), user.from('systemware.ga'));
 
