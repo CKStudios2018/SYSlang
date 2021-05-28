@@ -20,7 +20,9 @@ ex.disable.ligui;
 
 ex.select(user.from('nogui'), user.from('systemware.ga'));
 
-
+on boot.complete{
+    Desktop
+}
 for Desktop{
     nogui.close('this');
     uses('./testtop/');
