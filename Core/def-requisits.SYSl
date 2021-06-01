@@ -2,19 +2,20 @@ from lang-req enter all;
 
 for req(Hashtable){
     lang:"SYSl";
-    ver:"1.9.0";
+    ver:"2.0.1";
     style:"def";
     hash-style:"Hashtable";
 }
 
 for req(securityPatch){
-    uses(SYS_sec_patch);
-    req(SYS_sec_patch/v1);
+    uses(SYSl_sec_patch);
+    req(SYSl_sec_patch/v1);
     
     patches{
         SYSlauncher;
-        SYSl.aud;
-        SYStem_codertop.SYSl;
-        SYStem_testtop.SYSl;
+        SYSl.audit;
+        SYStem_codertop;
+        SYStem_testtop;
+        SYStem_dektop;
     }
 }

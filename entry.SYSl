@@ -20,7 +20,13 @@ ex.disable.ligui;
 
 ex.select(user.from('nogui'), user.from('systemware.ga'));
 
+for translators(C, JS, C#, CPP, Ruby, Py){
+    dl(from(systemware.ga/trans/ enter all).to('A:/'))
+}
 
+on boot.complete{
+    Desktop
+}
 for Desktop{
     nogui.close('this');
     uses('./testtop/');
