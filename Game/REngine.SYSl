@@ -8,7 +8,7 @@ from gamelib enter developer;
 monitor.setResourceLevel(High);
 
 for engine{
-    dl(from(systemware.ga/gamelib/ enter engine).to('A:/')); // here we'd put PipeWarp's Enginge, but seeing as it's not done, we'll leave it for now //
+    dl(from(systemware.ga/gamelib/ enter engine).to('A:/')); // here we'd put PipeWarp's Engine, but seeing as it's not done, we'll leave it for now //
     exe('A:/REngine');
 } else{
     return;
