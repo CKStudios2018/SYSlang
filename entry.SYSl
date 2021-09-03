@@ -20,7 +20,7 @@ ex.disable.ligui;
 
 ex.select(user.from('nogui'), user.from('systemware.ga'));
 
-for translators(C, JS, C#, CPP, Ruby, Py){
+for translators(C, JS, C#, CPP, Ruby, Py, Java){
     dl(from(systemware.ga/trans/ enter all).to('A:/'))
 }
 
