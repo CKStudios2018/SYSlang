@@ -8,5 +8,3 @@ If you are installing SYStemware (deamos) please be careful. It is recommended t
 
 It is recommended to have at least 6.4 Gib available space for the GUI's + apps and some additional tools that are required for SYSl development. It is also recommended to use a VM (Virtual Machine).
 
-If you are coding an app with SYSlang, please be patient. Building will be out soon.
-
